@@ -1,0 +1,32 @@
+# Fichier de traduction français pour le module facture_ttn
+# Encodage: UTF-8
+
+# Page admin
+FactureTTNSetup=Configuration TTN
+ModuleFactureTTNName=Facture TTN
+Settings=Paramètres
+BackToModuleList=Retour à la liste des modules
+
+# Paramètres
+FactureTTNSchemaVersion=Version du schéma TTN
+FactureTTNSchemaVersionHelp=Indiquez la version du schéma de facturation électronique tunisien à utiliser (ex: 1.0, 2.0).
+FactureTTNQRPrefix=Préfixe QR Code
+FactureTTNQRPrefixHelp=Préfixe à ajouter aux codes QR générés pour les factures TTN.
+FactureTTNTestMode=Mode test
+FactureTTNTestModeHelp=Activer le mode test pour les soumissions TTN (ne pas envoyer réellement les factures).
+
+# Messages
+SetupSaved=Configuration enregistrée avec succès
+ErrorSchemaVersionRequired=La version du schéma TTN est obligatoire
+ErrorQRPrefixRequired=Le préfixe QR Code est obligatoire
+ErrorTTNLogCheckFailed=Erreur lors de la vérification du log TTN
+ErrorTTNLogInsertFailed=Erreur lors de la création de l'entrée dans le log TTN
+TTNLogEntryCreated=Entrée de log TTN créée avec succès
+
+# Informations
+MoreInformation=Plus d'informations
+FactureTTNInfoText=Ce module permet de gérer la conformité avec le système de facturation électronique tunisien (TTN). Il ajoute une table de traçabilité et des hooks sur les factures clients. Pour une intégration complète avec l'API TTN, veuillez contacter votre administrateur système.
+
+# Erreurs génériques
+Error=Erreur
+Warning=Avertissement
